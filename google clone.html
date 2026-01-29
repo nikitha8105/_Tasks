@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google</title>
+    <style>
+        body{
+            margin:0;
+            font-family:Arial;
+            display:flex;
+            flex-direction:column;
+            height:100vh;
+        }
+
+        .top{
+            text-align:right;
+            padding:15px;
+        }
+
+        .top a{
+            margin-left:15px;
+            text-decoration:none;
+            color:black;
+        }
+
+        .main{
+            flex:1;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+
+        input{
+            width:550px;
+            padding:12px;
+            border-radius:25px;
+            border:1px solid #ddd;
+            margin:20px 0;
+        }
+
+        button{
+            padding:10px 20px;
+            margin:5px;
+            border:none;
+            background:#f8f9fa;
+            cursor:pointer;
+        }
+
+        footer{
+            background:#f2f2f2;
+            text-align:center;
+            padding:12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="top">
+    <a href="#">Gmail</a>
+    <a href="#">Images</a>
+</div>
+
+<div class="main">
+    <!-- Google Logo Image -->
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+         width="270">
+
+    <input type="text" placeholder="Search Google or type a URL">
+
+    <div>
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+</div>
+
+<footer>India</footer>
+
+</body>
+</html>
+
+
